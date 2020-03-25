@@ -15,7 +15,7 @@ In this Project I decided to Scrape Quotes by famous writers and scholard. This 
 - RSpec version 3.9.0
 
 ## Getting Started
-I order to see all the data that was extracted from the website, The user has to type on the terminal ruby my_scraper.br and all the data containing the Quote, Author & Tags will display for the user to take a look at these motivational quotes.
+In order to see all the data that was extracted from the website, You first have to clone the repository, then when cloned you have to run your commands on the terminal to get an output so you can read the extracted data.
 
 ### Prerequisites
 ruby above version 2.6.4 (Other versions probably will work just fine, but it's not recommended)
