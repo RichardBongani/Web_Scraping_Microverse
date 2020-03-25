@@ -1,10 +1,8 @@
 require "httparty"
 require "nokogiri"
-require "byebug"
 
 class My_Scraper
   attr_reader :parsing_page
-  my_list_books = Array.new
 
   def initialize
     url = HTTParty.get("http://quotes.toscrape.com/")
@@ -12,7 +10,7 @@ class My_Scraper
   end
 
   def famous_quotes
-    quote_list = parsing_page.css("div.quote") #represence all 50 quotes on the url book store
+    quote_list = parsing_page.css("div.quote") 
   end
 
   def my_quote
@@ -43,5 +41,4 @@ class My_Scraper
     puts "TAGS: #{tags[i]}"
     puts "\n"
   end
-
 end
