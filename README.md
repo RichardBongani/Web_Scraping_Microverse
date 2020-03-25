@@ -43,5 +43,5 @@ WebScraping (Webpage with Quotes)
 - Linkedin: [linkedin](https://www.linkedin.com/in/richard-phala-078428113/)
 
 
-## License
-This project is [MIT](lic.url) licensed.
+## Link to page
+http://quotes.toscrape.com/
