@@ -1,6 +1,6 @@
 require_relative '../scraper_web/my_scraper.rb'
 
-describe My_scraper do
+describe MyScraper do
   let(:scrape) { My_scraper.new }
 
   it 'returns quotes from the website' do

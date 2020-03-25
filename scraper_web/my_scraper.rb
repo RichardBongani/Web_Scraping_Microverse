@@ -1,7 +1,7 @@
 require 'httparty'
 require 'nokogiri'
 
-class My_scraper
+class MyScraper
   attr_reader :parsing_page
 
   def initialize
@@ -25,7 +25,7 @@ class My_scraper
     anchor_tags = famous_quotes.css('div.tags').css('a.tag').children.map(&:text).compact
   end
 
-  the_scraper = My_scraper.new
+  the_scraper = MyScraper.new
   quotes = the_scraper.my_quote
   authors = the_scraper.my_author
   tags = the_scraper.my_tags
