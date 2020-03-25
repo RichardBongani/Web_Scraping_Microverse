@@ -10,19 +10,19 @@ class MyScraper
   end
 
   def famous_quotes
-    quote_list = parsing_page.css('div.quote')
+    parsing_page.css('div.quote')
   end
 
   def my_quote
-    quote = famous_quotes.css('span.text').children.map(&:text).compact
+    famous_quotes.css('span.text').children.map(&:text).compact
   end
 
   def my_author
-    author = famous_quotes.css('span').css('small.author').children.map(&:text).compact
+    famous_quotes.css('span').css('small.author').children.map(&:text).compact
   end
 
   def my_tags
-    anchor_tags = famous_quotes.css('div.tags').css('a.tag').children.map(&:text).compact
+    famous_quotes.css('div.tags').css('a.tag').children.map(&:text).compact
   end
 
   the_scraper = MyScraper.new
