@@ -1,7 +1,7 @@
 require_relative '../scraper_web/my_scraper.rb'
 
 describe MyScraper do
-  let(:scrape) { My_scraper.new }
+  let(:scrape) { MyScraper.new }
 
   it 'returns quotes from the website' do
     expect(scrape.my_quote) == 'QUOTE: a day without sunshine is like, you know, night.'

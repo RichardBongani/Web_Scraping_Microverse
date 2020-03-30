@@ -2,8 +2,8 @@ require 'httparty'
 require 'nokogiri'
 
 class MyScraper
-  attr_reader :parsing_page
-
+  attr_reader :parsing_page, :quotes
+  quotation = []
   def initialize
     url = HTTParty.get('http://quotes.toscrape.com/')
     @parsing_page = Nokogiri::HTML(url)
@@ -23,21 +23,5 @@ class MyScraper
 
   def my_tags
     famous_quotes.css('div.tags').css('a.tag').children.map(&:text).compact
-  end
-
-  the_scraper = MyScraper.new
-  quotes = the_scraper.my_quote
-  authors = the_scraper.my_author
-  tags = the_scraper.my_tags
-
-  (0...quotes.size).each do |i|
-    puts "-------Quote: #{i + 1}---------"
-    puts "\n"
-    puts "QUOTE: #{quotes[i]}"
-    puts ''
-    puts "AUTHOR: #{authors[i]}"
-    puts ''
-    puts "TAGS: #{tags[i]}"
-    puts "\n"
   end
 end
