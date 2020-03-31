@@ -3,7 +3,7 @@ Designing a program that extracts data from a website.
 
 This is a project built when studying at Microverse. The objective of this project is to learn how to web scrape using Ruby.
 
-In this Project I decided to Scrape Quotes by famous writers and scholard. This project was used building a programming language called Ruby. I had to follow git flow for this project and apply everyhting I have learned. I have used OOP(Object Oriented Programing) in this project, and applied as much proffessional skills as much as I can.
+In this Project I decided to Scrape Quotes by famous writers and scholars. This project was used building a programming language called Ruby. I had to follow git flow for this project and apply everyhting I have learned. I have used OOP(Object Oriented Programing) in this project, and applied as much professional skills as much as I can.
 
 ## Built With
 
@@ -25,7 +25,7 @@ To clone this project using ssh: git clone git@github.com:RichardBongani/Web_Scr
 To clone this project using https: git clone https://github.com/RichardBongani/Web_Scraping_Microverse.git
 
 ### Install
-After the project has been downloaded,use your terminal to rub it
+After the project has been downloaded,use your terminal to run it
 
 ### Usage
 When inside of the folder Microverse_Tic_tac_toe you can run the command ruby scraper_web/my_scraper.rb
