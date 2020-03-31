@@ -15,7 +15,7 @@ In this Project I decided to Scrape Quotes by famous writers and scholars. This 
 - RSpec version 3.9.0
 
 ## Getting Started
-In order to see all the data that was extracted from the website, You first have to clone the repository, then when cloned you have to run your commands on the terminal to get an output so you can read the extracted data.
+Im order to run the program you will need to first clone the repository onto your system, then open your terminal and go onto the cloned repository, then cd into scraper_web folder then type in the command--> ruby my_scraper.rb and the program should display an output containing the extracted data from the chosen website. 
 
 ### Prerequisites
 ruby above version 2.6.4 (Other versions probably will work just fine, but it's not recommended)
@@ -28,7 +28,7 @@ To clone this project using https: git clone https://github.com/RichardBongani/W
 After the project has been downloaded,use your terminal to run it
 
 ### Usage
-When inside of the folder Microverse_Tic_tac_toe you can run the command ruby scraper_web/my_scraper.rb
+For Scraping data of a chosen website 
 
 # Project type :
 
