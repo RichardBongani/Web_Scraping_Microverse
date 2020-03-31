@@ -2,8 +2,8 @@ require 'httparty'
 require 'nokogiri'
 
 class MyScraper
-  attr_reader :parsing_page, :quotes
-  quotation = []
+  attr_reader :parsing_page
+
   def initialize
     url = HTTParty.get('http://quotes.toscrape.com/')
     @parsing_page = Nokogiri::HTML(url)

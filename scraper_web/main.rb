@@ -1,6 +1,5 @@
 require_relative "my_scraper" 
-
-class Main 
+  
   def scrape 
     the_scraper = MyScraper.new
     quotes = the_scraper.my_quote
@@ -17,5 +16,4 @@ class Main
       puts "\n"
     end
   end
-end
-results = Main.new.scrape 
+  scrape
