@@ -15,7 +15,7 @@ In this Project I decided to Scrape Quotes by famous writers and scholars. This 
 - RSpec version 3.9.0
 
 ## Getting Started
-Im order to run the program you will need to first clone the repository onto your system, then open your terminal and go onto the cloned repository, then cd into scraper_web folder then type in the command--> ruby my_scraper.rb and the program should display an output containing the extracted data from the chosen website. 
+In order to run the program you will need to first clone the repository onto your system, then open your terminal and go onto the cloned repository on your system, then cd into scraper_web folder using your terminal then type in the command--> ruby my_scraper.rb and the program should output data containing the extracted information from the chosen website. 
 
 ### Prerequisites
 ruby above version 2.6.4 (Other versions probably will work just fine, but it's not recommended)
