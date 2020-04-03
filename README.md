@@ -8,6 +8,7 @@ In this Project I decided to Scrape Quotes by famous writers and scholars. This 
 ## Built With
 
 - Programming Language: Ruby
+- Storage of data: CSV
 - Version Control System: Git, Github
 
 ## Tested With 
