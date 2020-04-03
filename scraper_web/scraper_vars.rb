@@ -1,6 +1,6 @@
 require_relative 'scraper.rb'
 
-class Scraper_vars < MyScraper
+class ScraperVars < MyScraper
   def storage_scraper
     list_quotes = []
     content = parsing_url.css('.col-md-8')

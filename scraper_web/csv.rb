@@ -1,7 +1,7 @@
 require_relative 'scraper_vars.rb'
 require 'csv'
 
-class MyCsvFile < Scraper_vars
+class MyCsvFile < ScraperVars
   attr_reader :quotes_li
   def initialize
     @quotes_li = CSV.read('my_quotes.csv')
