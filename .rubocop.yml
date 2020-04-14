@@ -15,9 +15,8 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  ExcludedMethods: ['describe']
+  ExcludedMethods: ["describe"]
   Max: 30
-
 
 Style/Documentation:
   Enabled: false
@@ -39,3 +38,14 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
+
+Lint/RaiseException (0.81):
+  Enabled: false
+Lint/StructNewOverride (0.81):
+  Enabled: true
+Style/HashEachMethods (0.80):
+  Enabled: false
+Style/HashTransformKeys (0.80):
+  Enabled: false
+Style/HashTransformValues (0.80):
+  Enabled: false
