@@ -3,7 +3,6 @@ require 'rspec-html-matchers'
 
 describe 'ScraperVars' do
   include RSpecHtmlMatchers
-  let (:vars) { ScraperVars.new }
   it 'should return the html tag' do
     expect('<div class="quote" itemscope itemtype="http://schema.org/CreativeWork>').to have_tag('div.quote')
   end
