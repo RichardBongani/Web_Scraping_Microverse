@@ -1,4 +1,4 @@
-require_relative '../bin/scraper_vars.rb'
+require_relative '../lib/scraper_vars.rb'
 require 'rspec-html-matchers'
 
 describe 'ScraperVars' do
