@@ -5,7 +5,7 @@ require 'csv'
 class MyCsvFile < MyScraper
   def csv_file
     CSV.foreach('my_quotes.csv') do |csv|
-      puts csv.inspect
+      puts csv
     end
   end
 end
