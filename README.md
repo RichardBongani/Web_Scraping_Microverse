@@ -22,7 +22,7 @@ In order to run the program you will need to first clone the repository onto you
 ruby above version 2.6.4 (Other versions probably will work just fine, but it's not recommended)
 
 ## Gem Library
-There are two gems used in this project :Nokogiri, rest client & CSV
+There are two gems used in this project :Nokogiri, rest client & CSV. The following gem files are under specific_install folder.
 
 ### Setup
 To clone this project using ssh: git clone git@github.com:RichardBongani/Web_Scraping_Microverse.git
