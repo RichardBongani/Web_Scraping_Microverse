@@ -15,8 +15,8 @@ In this Project I decided to Scrape Quotes by famous writers and scholars. This 
 
 - RSpec version 3.9.0
 
-## Getting Started
-In order to run the program you will need to first clone the repository onto your system, then open your terminal and go onto the cloned repository on your system, and run the following command ruby bin/main.rb, the final results of the program will be displayed.
+## How to run the app
+In order to run the program you will need to first clone the repository onto your system, then open your terminal and cd into the cloned repository(file) on your system, and run the following command ruby bin/main.rb, the final results of the program will be displayed.
 
 ## Testing Code
 In order to test the program. On the terminal you need to type rspec, that will be under your project folder called web_scraping_microverse. 
